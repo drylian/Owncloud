@@ -1,1 +1,1 @@
-# armazem
+# local de arquivos linkados 
