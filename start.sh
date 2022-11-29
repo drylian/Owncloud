@@ -6,7 +6,7 @@ echo "⟳ Iniciando PHP-FPM..."
 rm -rf /home/container/tmp/*
 
 echo "⟳ Iniciando PHP-FPM..."
-/usr/sbin/php-fpm8.1 --fpm-config /home/container/php-fpm/php-fpm.conf --daemonize
+/usr/sbin/php-fpm81 --fpm-config /home/container/php-fpm/php-fpm.conf --daemonize
 
 echo "⟳ Iniciando Nginx..."
 echo "✓ Inicializado com sucesso"
