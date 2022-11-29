@@ -1,0 +1,13 @@
+#!/bin/ash
+rm -rf /home/container/tmp/*
+
+echo "⟳ Iniciando PHP-FPM..."
+/usr/sbin/#!/bin/ash
+rm -rf /home/container/tmp/*
+
+echo "⟳ Iniciando PHP-FPM..."
+/usr/sbin/php-fpm8.1 --fpm-config /home/container/php-fpm/php-fpm.conf --daemonize
+
+echo "⟳ Iniciando Nginx..."
+echo "✓ Inicializado com sucesso"
+/usr/sbin/nginx -c /home/container/nginx/nginx.conf -p /home/container/
